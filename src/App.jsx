@@ -1,9 +1,19 @@
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
+import Section1 from "./Components/Section1/Section1";
+import Section2 from "./Components/Section2/Section2";
+import Footer from "./Components/Footer/Footer";
+
 
 function App() {
   return (
     <div>
-      <h1>App</h1>
+      {/* <Navbar /> */}
+      <Hero />
+      <Section1 />
+      <Section2 />
+      <Footer />
     </div>
   )
 }
