@@ -1,9 +1,9 @@
 import "./App.css";
-
+import Section1 from "./Components/Section1/Section1";
 function App() {
   return (
     <div>
-      <h1>App</h1>
+      <Section1/>
     </div>
   )
 }
