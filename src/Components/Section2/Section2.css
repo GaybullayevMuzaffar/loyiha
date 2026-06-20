@@ -1,0 +1,51 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.father-part {
+    display: flex;
+    gap: 60px;
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.parts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px;
+}
+
+.cost {
+    color: #C1C1C1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cost1 {
+    font-size: 56px;
+    color: #1E2229;
+    font-weight: bold;
+}
+
+.text {
+    color: #C1C1C1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.learning {
+    color: #FF7235;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+}
